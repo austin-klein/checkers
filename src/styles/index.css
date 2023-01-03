@@ -1,0 +1,36 @@
+.container {
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+td {
+  width: 70px;
+  height: 70px;
+  background-color: #b97939;
+  text-align: center;
+}
+
+.no-piece {
+  background-color: #f3d7bc;
+}
+
+.red-piece,
+.black-piece {
+  width: 22px;
+  height: 22px;
+  padding: 12px;
+  border: 1px solid #c8c8c8;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.red-piece {
+  background-color: #cc0000;
+}
+.black-piece {
+  background-color: #000000;
+}

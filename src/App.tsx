@@ -1,12 +1,11 @@
-import { useState } from 'react'
-
+import { Board } from './components/Board';
+import './styles/index.css';
 const App = () => {
-
   return (
-    <div>
-   test
+    <div className="container">
+      <Board />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
